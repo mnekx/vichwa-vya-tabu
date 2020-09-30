@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: darkred;
+  color: white; }
+
+.container .maelezo {
+  display: none;
+  animation: fifia 1s; }
+
+@keyframes fifia {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.container .tabu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center; }
+  .container .tabu a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    background: darkgreen;
+    width: 100%;
+    text-align: center;
+    transition: all 1s; }
+    .container .tabu a:hover {
+      background: #cccc00;
+      color: black; }

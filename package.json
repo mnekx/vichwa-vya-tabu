@@ -1,0 +1,22 @@
+{
+  "name": "vichwa-vya-tabu",
+  "version": "1.0.0",
+  "description": "\"# vichwa-vya-tabu\"",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass -w sass/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnekx/vichwa-vya-tabu.git"
+  },
+  "author": "Mnemba Chambuya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnekx/vichwa-vya-tabu/issues"
+  },
+  "homepage": "https://github.com/mnekx/vichwa-vya-tabu#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
